@@ -28,14 +28,14 @@ Each Campground has:
 * Add a navbar to all templates
 * Style the new campground form
 
+---
+
+## __Version 2__
+
 ### Add Mongoose
 * Install and configure mongoose
 * Setup campground model
 * Use campground model inside of our routes!
-
----
-
-## __Version 2__
 
 ### Show Page
 * Review the RESTful routes we've seen so far
@@ -45,7 +45,7 @@ Each Campground has:
 
 RESTFUL ROUTES
 | name   | url       | verb    | version    | desc. |
-| ------- | ---------- | -------- | ----------- | ----- |
+| ------- | -------- | ------- | ---------- | ----- |
 | INDEX  | /dogs     | GET     | 1          | Display a list of all dogs |
 | NEW    | /dogs/new | GET     | 1          | Displays form to make a new dog |
 | CREATE | /dogs     | POST    | 1          | Add new dog to DB |
